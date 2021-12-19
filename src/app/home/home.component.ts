@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
+  test: number | undefined;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.test = 0;
   }
 
 }
